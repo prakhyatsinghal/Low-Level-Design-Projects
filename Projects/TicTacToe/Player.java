@@ -1,5 +1,6 @@
 package TicTacToe;
 
+// This class represents a player in the game. It has a name and a symbol ('X' or 'O').
 public class Player {
     private String name;
     private char symbol;

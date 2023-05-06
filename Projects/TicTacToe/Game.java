@@ -3,6 +3,14 @@ package TicTacToe;
 import java.util.Scanner;
 
 // Game class
+/*/
+This class represents the game itself. It contains a reference to the game board,
+ the two players, and the current player. The play method runs the game loop, 
+ where the players take turns making moves until a win or a tie is achieved. T
+ he currentPlayerMove method prompts the current player to enter their move and 
+ returns a Move object. The checkWin method checks if the current player has won.
+  The switchPlayer method switches the current player after each turn. */
+  
 public class Game {
     private Board board;
     private Player player1;

@@ -1,6 +1,14 @@
 package TicTacToe;
 
 // Board class
+/*This class represents the game board. It contains a 2D array of 
+characters to represent the state of the game board. The isValidMove method 
+checks if a given move is valid (i.e., if the cell is empty). 
+The makeMove method places a player's symbol on the board if the move is valid. 
+The getCell method returns the symbol at a given cell. The isFull method checks
+ if the board is full (i.e., if there are no empty cells). The display method displays 
+ the current state of the board on the console. */
+ 
 public class Board {
     private char[][] grid = new char[3][3];
 
