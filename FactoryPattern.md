@@ -1,4 +1,4 @@
-##FACTORY PATTERN##
+FACTORY PATTERN
 
 1. It is not good to use the “new” keyword in our class.Because we can only use a new keyword with concrete class and then it will violate the dependency inversion principle.
 
